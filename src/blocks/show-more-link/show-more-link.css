@@ -1,0 +1,10 @@
+.show-more-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.show-more-link:hover {
+    text-decoration: none;
+}

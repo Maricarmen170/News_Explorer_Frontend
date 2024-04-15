@@ -1,0 +1,9 @@
+.header__button-menu_nav {
+    display: block;
+}
+
+@media screen and (min-width: 767px) {
+    .header__button-menu_nav {
+        display: none;
+    }
+}

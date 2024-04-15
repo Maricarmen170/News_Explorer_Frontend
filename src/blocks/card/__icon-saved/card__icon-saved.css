@@ -1,0 +1,9 @@
+.card__icon-saved {
+    margin-left: 350px;
+    margin-top: 8px;
+    padding-top: 0;
+}
+
+.card__icon-saved:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,13 @@
+.searchForm {
+    justify-content: center;
+    display: flex;
+    z-index: 4;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .searchForm {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}

@@ -1,0 +1,13 @@
+.popup__info-link {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    color: #2F71E5;
+    margin-left: 30px;
+}
+
+.popup__info-link:hover {
+    opacity: 0.6;
+}

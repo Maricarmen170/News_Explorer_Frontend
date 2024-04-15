@@ -1,0 +1,9 @@
+.header__container_movile {
+    height: 56px;
+    flex-direction: row;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px #545454 solid;
+}

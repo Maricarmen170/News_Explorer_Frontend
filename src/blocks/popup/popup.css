@@ -1,0 +1,16 @@
+.popup {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    display: none;
+    z-index: 10;
+}
+
+.popup:hover {
+    visibility: visible;
+    opacity: 1;
+}

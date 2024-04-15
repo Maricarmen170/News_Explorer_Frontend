@@ -1,0 +1,24 @@
+.card__login-message-container {
+    z-index: 2;
+    background-color: white;
+    max-width: 210px;
+    width: 182px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 160px;
+    top: 0;
+    position: absolute;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1250px) {
+    .card__login-message-container {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .card__login-message-container {
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,12 @@
+.popup__link_signup {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: rgb(53, 103, 194);
+}
+
+.popup__link_signup:hover {
+    opacity: 0.6;
+}

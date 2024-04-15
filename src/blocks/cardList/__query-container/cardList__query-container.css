@@ -1,0 +1,11 @@
+.cardList__query-container {
+    z-index: 2;
+    background-color: white;
+    width: auto;
+    height: 40px;
+    left: 8px;
+    border-radius: 10px;
+    position: absolute;
+    top: 8px;
+    padding: 0;
+}

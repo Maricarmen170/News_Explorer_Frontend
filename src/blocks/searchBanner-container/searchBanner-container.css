@@ -1,0 +1,10 @@
+.searchBanner-container {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}

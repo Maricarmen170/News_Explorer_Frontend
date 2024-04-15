@@ -1,0 +1,17 @@
+.card__results {
+    font-family: "Roboto", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    min-width: 200px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    max-width: 288px;
+    height: 64px;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+}

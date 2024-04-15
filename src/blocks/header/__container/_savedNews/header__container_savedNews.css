@@ -1,0 +1,12 @@
+.header__container_savedNews {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header__container_savedNews {
+        flex-direction: column;
+        gap: 5px;
+        margin: 0;
+    }
+}

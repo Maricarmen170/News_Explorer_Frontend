@@ -1,0 +1,22 @@
+.main__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1250px) {
+    .main__cards {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .main__cards {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+

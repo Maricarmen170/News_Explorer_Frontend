@@ -1,0 +1,9 @@
+.cardList__icon-delete {
+    margin-left: 350px;
+    margin-top: 8px;
+    padding-top: 0;
+}
+
+.cardList__icon-delete:hover {
+    opacity: 0.6;
+}

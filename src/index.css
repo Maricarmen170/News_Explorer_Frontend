@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@import url(./blocks/body/body.css);
+@import url(./blocks/app/__container/app__container.css);
+/*HEADER*/
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__text/header__text.css);
+@import url(./blocks/header/__button-menu/header__button-menu.css);
+@import url(./blocks/header/__container-texts-desktop/header__container-texts-desktop.css);
+@import url(./blocks/header/__container-texts-movile/header__container-texts-movile.css);
+@import url(./blocks/header/__container-texts-movile-savedNews/header__container-texts-movile-savedNews.css);
+@import url(./blocks/header/__container-texts-movile/_open/header__container-texts-movile_open.css);
+@import url(./blocks/header/__container-texts-movile/_open-savedNews/header__container-texts-movile_open-savedNews.css);
+@import url(./blocks/header/__container/_movile/header__container_movile.css);
+@import url(./blocks/header/__text/_movile/header__text_movile.css);
+@import url(./blocks/header/__text/_movile/_savedNews/header__text_movile_savedNews.css);
+@import url(./blocks/header/__button-menu/_main/header__button-menu_main.css);
+@import url(./blocks/header/__button-menu/savedNews/header__button-menu_savedNews.css);
+@import url(./blocks/header/__button-menu/_nav/header__button-menu_nav.css);
+@import url(./blocks/header/__container/__links/_movile/header__container__links_movile.css);
+@import url(./blocks/header/__link/_text/header__link_text.css);
+@import url(./blocks/header/__container-texts/_savedNews/header__container-texts_savedNews.css);
+@import url(./blocks/header/__container/_savedNews/header__container_savedNews.css);
+@import url(./blocks/header/__link/_text-border/header__link_text-border.css);
+@import url(./blocks/header/__icon-logout/header__icon-logout.css);
+@import url(./blocks/header/__text/_savedNews/header__text_savedNews.css);
+@import url(./blocks/header/__link/_text/_savedNews/header__link_text_savedNews.css);
+@import url(./blocks/header/__link/_text-border/_savedNews/header__link_text-border_savedNews.css);
+
+/*FOOTER*/
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__container/_desktop/footer__container_desktop.css);
+@import url(./blocks/footer/__container/_movile/footer__container_movile.css);
+@import url(./blocks/footer/__container/_links/_movile/footer__container_links_movile.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);
+@import url(./blocks/footer/__copyright/_movile/footer__copyright_movile.css);
+@import url(./blocks/footer/__link/_movile/footer__link_movile.css);
+@import url(./blocks/footer/__link/_text/_movile/footer__link_text_movile.css);
+@import url(./blocks/footer/__link/_text/footer__link_text.css);
+
+/* POPUP INFOTOOLTIP*/
+@import url(./blocks/popup/__info-container/popup__info-container.css);
+@import url(./blocks/popup/__info-closed/popup__info-closed.css);
+@import url(./blocks/popup/__info-closeIcon/popup__info-closeIcon.css);
+@import url(./blocks/popup/__info-text/popup__info-text.css);
+@import url(./blocks/popup/__info-link/popup__info-link.css);
+
+/*MAIN*/
+@import url(./blocks/main/main.css);
+@import url(./blocks/main/__cards/main__cards.css);
+@import url(./blocks/main/__cards/_button-ShowMore/main__cards_button-ShowMore.css);
+@import url(./blocks/main/__cardsResultTitle/main__cardsResultTitle.css);
+
+/* POPUP MODALWITHFORM */
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__close-icon/popup__close-icon.css);
+@import url(./blocks/popup/__title/popup__title.css);
+@import url(./blocks/popup/__subtitle-input/popup__subtitle-input.css);
+@import url(./blocks/popup/__text-input/popup__text-input.css);
+@import url(./blocks/popup/__input-error/popup__input-error.css);
+@import url(./blocks/popup/__button/popup__button.css);
+@import url(./blocks/popup/__container-footer/popup__container-footer.css);
+@import url(./blocks/popup/__text/_footer/popup__text_footer.css);
+@import url(./blocks/popup/__link/_signup/popup__link_signup.css);
+
+/*CARD*/
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__header/card__header.css);
+@import url(./blocks/card/__icon-container/card__icon-container.css);
+@import url(./blocks/card/__icon-saved/card__icon-saved.css);
+@import url(./blocks/card/__login-message-container/card__login-message-container.css);
+@import url(./blocks/card/__login-message/card__login-message.css);
+@import url(./blocks/card/__image/card__image.css);
+@import url(./blocks/card/__footer-image/card__footer-image.css);
+@import url(./blocks/card/__date/card__date.css);
+@import url(./blocks/card/__title/card__title.css);
+@import url(./blocks/card/__description/card__description.css);
+@import url(./blocks/card/__results/card__results.css);
+@import url(./blocks/card/__source/card__source.css);
+
+/* CARDLIST */
+@import url(./blocks/cardList/__icon-delete/cardList__icon-delete.css);
+@import url(./blocks/cardList/__delete-message-container/cardList__delete-message-container.css);
+@import url(./blocks/cardList/__delete-message/cardList__delete-message.css);
+@import url(./blocks/cardList/__query-container/cardList__query-container.css);
+@import url(./blocks/cardList/__query-text/cardList__query-text.css);
+
+/* PRELOADER */
+@import url(./blocks/preloader/preloader.css);
+@import url(./blocks/preloader/__title/preloader__title.css);
+@import url(./blocks/preloader/__circle/preloader__circle.css);
+
+/* SAVED NEWS */
+@import url(./blocks/saved-news/__cards/saved-news__cards.css);
+@import url(./blocks/saved-news/__NoCardsFound/saved-news__NoCardsFound.css);
+
+/* SAVED NEWS HEADER */
+@import url(./blocks/saved-news-header/saved-news-header.css);
+@import url(./blocks/saved-news-header/__title/saved-news-header__title.css);
+@import url(./blocks/saved-news-header/__count/saved-news-header__count.css);
+@import url(./blocks/saved-news-header/__queries/saved-news-header__queries.css);
+@import url(./blocks/saved-news-header/keywords/saved-news-header__keywords.css);
+
+@import url(./blocks/show-more-link/show-more-link.css);
+
+@import url(./blocks/searchBanner-container/searchBanner-container.css);
+
+/* SEARCH BANNER */
+@import url(./blocks/searchBanner/__title/searchBanner__title.css);
+@import url(./blocks/searchBanner/__subtitle/searchBanner__subtitle.css);
+
+/* SEARCH FORM */
+@import url(./blocks/searchForm/searchForm.css);
+@import url(./blocks/searchForm/__input/searchForm__input.css);
+@import url(./blocks/searchForm/__button/searchForm__button.css);
+@import url(./blocks/searchForm/_mesageNoInput/searchForm_mesageNoInput.css);

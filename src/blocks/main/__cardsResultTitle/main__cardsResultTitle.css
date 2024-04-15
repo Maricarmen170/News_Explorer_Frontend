@@ -1,0 +1,11 @@
+.main__cardsResultTitle {
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 180px;
+    margin-top: 80px;
+}

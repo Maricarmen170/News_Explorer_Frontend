@@ -1,0 +1,11 @@
+.popup__info-closeIcon {
+    max-width: 40px;
+    max-height: 40px;
+    position: absolute;
+    top: -45px;
+    right: -45px;
+}
+
+.popup__info-CloseIcon:hover {
+    opacity: 0.6;
+}

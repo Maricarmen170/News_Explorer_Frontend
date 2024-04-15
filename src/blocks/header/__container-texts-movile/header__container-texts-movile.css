@@ -1,0 +1,17 @@
+.header__container-texts-movile {
+    position: absolute;
+    top: -350px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #1A1B22;
+    z-index: 5;
+    transition: top 0.3s ease;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 767px) {
+    .header__container-texts-movile {
+        display: none;
+    }
+}
