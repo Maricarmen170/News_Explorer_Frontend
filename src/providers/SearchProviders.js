@@ -13,7 +13,7 @@ export default function SearchProvider({ children }) {
 
   const api = new Api({
     address: "https://newsapi.org",
-    apiKey: "016f14e7761d4baca1c75b200bde1015",
+    apiKey: "62446a0153ca420eae547f61cb3f56bd",
   });
 
   const handleSearch = async () => {
